@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--<suite thread-count="25" name="Regression" parallel="classes" skipfailedinvocationcounts="true"> -->
+<suite name="Test Suite" configfailurepolicy="continue">
+
+    <test name="Browser">
+        <classes>
+            <class name="org.example.openBrowser"/>
+        </classes>
+    </test>
+
+</suite>
